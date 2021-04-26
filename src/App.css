@@ -49,6 +49,9 @@ body {
   font-family: "Roboto Condensed" sans-serif;
 }
 /***************************** Navbar *****************************/
+nav {
+  z-index: 2;
+}
 .logo {
   width: 6rem;
 }
@@ -76,6 +79,12 @@ nav ul li {
   height: 6rem !important;
 }
 
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 1rem;
+  }
+}
+
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
   border-top: 0.1875rem solid var(--primary-white);
@@ -90,7 +99,7 @@ nav ul li {
 .header-wrapper {
   position: relative;
   background-color: #343a40;
-  height: 90vh;
+  height: 84vh;
 }
 
 .main-info {
@@ -105,6 +114,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   font-family: "Roboto Condensed" sans-serif;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -118,6 +128,15 @@ nav ul li {
   color: var(--primary-white);
 }
 
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem;
+  }
+}
+
 /***************************** Main Offer Button *****************************/
 .btn-main-offer {
   border: 1px solid var(--primary-red);
@@ -126,4 +145,24 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+}
+
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  transition: 0.2s ease-in-out;
+}
+
+/***************************** Particles *****************************/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
 }
