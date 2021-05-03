@@ -3,7 +3,7 @@ import author from "../ed_square.png";
 
 const About = () => {
   return (
-    <div className="container py-5">
+    <div id="about" className="container py-5">
       <h1 className="about-heading">About</h1>
       <div className="row">
         <div className="col-lg-6 col-xm-12">

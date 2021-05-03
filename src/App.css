@@ -40,11 +40,20 @@
 }
 
 :root {
-  --primary-white: #fff;
+  --primary-white: #ffffff;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
+  --primary-dark-2: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0, 0, 0, 0.7);
+  --primary-green: green;
 }
+
 body {
   font-family: "Roboto Condensed" sans-serif !important;
 }
@@ -100,6 +109,7 @@ nav ul li {
   position: relative;
   background-color: #343a40;
   height: 84vh;
+  margin-top: 16vh;
 }
 
 .main-info {
@@ -171,7 +181,7 @@ nav ul li {
 .photo-wrap {
   display: felx;
   justify-content: center;
-  align-items: enter;
+  align-items: center;
 }
 .profile-img {
   width: 24rem;
@@ -188,4 +198,34 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+}
+
+/***************************** Footer *****************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-light-grey);
+  cursor: pointer;
+}
+
+.backToTop:hover {
+  text-decoration: none;
+  color: var(--primary-light-grey);
+  cursor: pointer;
+}
+
+.backToTop {
+  justify-content: center;
+  align-items: center;
 }
