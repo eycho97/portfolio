@@ -200,6 +200,30 @@ nav ul li {
   }
 }
 
+/***************************** Education *****************************/
+
+.education {
+  background-color: #343a40;
+  color: var(--primary-white);
+}
+.education-heading {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.school-name {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.courses > p {
+  position: relative;
+  float: left;
+}
+.school-wrap {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
 /***************************** Footer *****************************/
 .footer {
   background: var(--primary-black);
