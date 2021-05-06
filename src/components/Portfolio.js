@@ -1,10 +1,14 @@
-import React from "react"
-import participate from "../images/participate.png"
-import umart from "../images/umart.png"
+import React from "react";
+import participate from "../images/participate.png";
+import umart from "../images/umart.png";
+// React Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 const Portfolio = () => {
+
+
+
   return (
     <div className="portfolio-wrapper">
       <div className="container">
@@ -26,7 +30,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-
     </div>
   )
 }
