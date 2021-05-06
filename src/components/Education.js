@@ -1,5 +1,5 @@
 import React from "react";
-import school from "../carnegie-mellon-university-logo.png";
+import school from "../images/carnegie-mellon-university-logo.png";
 
 const Education = () => {
   return (

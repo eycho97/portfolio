@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../ed_square.png";
+import author from "../images/ed_square.png";
 
 const About = () => {
   return (

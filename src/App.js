@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Education from "./components/Education";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
       <Header />
       <About />
       <Education />
+      <Portfolio />
       <Footer />
     </>
   );
