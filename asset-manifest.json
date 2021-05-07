@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba47e05e.chunk.css",
+    "main.js": "/portfolio/static/js/main.829a6328.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.829a6328.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.98f686a6.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.98f686a6.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6d92c1e1.chunk.js": "/portfolio/static/js/2.6d92c1e1.chunk.js",
+    "static/js/2.6d92c1e1.chunk.js.map": "/portfolio/static/js/2.6d92c1e1.chunk.js.map",
+    "static/js/3.9fdde618.chunk.js": "/portfolio/static/js/3.9fdde618.chunk.js",
+    "static/js/3.9fdde618.chunk.js.map": "/portfolio/static/js/3.9fdde618.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.ba47e05e.chunk.css.map": "/portfolio/static/css/main.ba47e05e.chunk.css.map",
+    "static/js/2.6d92c1e1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d92c1e1.chunk.js.LICENSE.txt",
+    "static/media/carnegie-mellon-university-logo.fe9dc46e.png": "/portfolio/static/media/carnegie-mellon-university-logo.fe9dc46e.png",
+    "static/media/ed_square.d53e5358.png": "/portfolio/static/media/ed_square.d53e5358.png",
+    "static/media/participate.1de0fc97.png": "/portfolio/static/media/participate.1de0fc97.png",
+    "static/media/umart.4e26494d.png": "/portfolio/static/media/umart.4e26494d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98f686a6.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.6d92c1e1.chunk.js",
+    "static/css/main.ba47e05e.chunk.css",
+    "static/js/main.829a6328.chunk.js"
+  ]
+}
