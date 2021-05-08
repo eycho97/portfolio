@@ -311,10 +311,8 @@ nav ul li {
 }
 
 .center-items {
-  align-self: "center";
-  align-items: "center";
-  text-align: "right";
-  z-index: 99999;
+  text-align: center;
+  margin-right: 1rem;
 }
 
 .portfolio-modal-image {

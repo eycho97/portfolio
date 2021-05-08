@@ -51,6 +51,9 @@ const Portfolio = () => {
               <img className="portfolio-image" src={participate} alt="Participate Project"></img>
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+              <div className="center-items">
+                <h3>UX Research Project<br></br>Fall 2019</h3>
+              </div>
             </div>
           </div>
           <div className="image-box-wrapper col-lg-6 col-xm-12">
@@ -58,6 +61,9 @@ const Portfolio = () => {
               <img className="portfolio-image" src={umart} alt="Umart Mobile App Project"></img>
               <div className="overflow"></div>
               <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus}/>
+              <div className="center-items">
+                <h3>Mobile App Development<br></br>Fall 2020</h3>
+              </div>
             </div>          
           </div>
         </div>

@@ -48,4 +48,11 @@ export default {
   solutionDiagram: {
     width: '90%',
   },
+  wireframe: {
+    width: '40%',
+  },
+  screens: {
+    textAlgin: 'center',
+    alignItems: 'center',
+  }
 }
