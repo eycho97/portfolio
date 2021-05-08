@@ -12,11 +12,6 @@ import styles from "./modal.css.js"
 
 const Participate = () => {
 
-  const example = {
-    content: {
-      color: "orange",
-    }
-  }
   return (
     <div style={styles.textFont}>
       <div>
@@ -26,7 +21,7 @@ const Participate = () => {
         <h3><strong>UX Research Project</strong></h3>
         <p>User Centered Research and Evaluation (Fall 2019)<br></br>
           Instructors: Raelin Musuraca & Carol Smith<br></br>
-          Team: Edward Cho, Marc Dubin, Katie Johnstone, Natalie Scahde. Shan Wang<br></br>
+          Team: Edward Cho, Marc Dubin, Katie Johnstone, Natalie Scahde, Shan Wang<br></br>
           Role: UX Researcher<br></br>
         </p>
       </div>
