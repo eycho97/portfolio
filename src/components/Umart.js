@@ -32,7 +32,9 @@ const Umart = () => {
         <h3><strong>Executive Summary</strong></h3><br></br>
         <p>
         U-Mart is a buy and sell app built for college students. Through college email authentication, U-mart ensures that users are secure and trustworthy.<br></br>
-        This app is specifically built for buy and sell interactions, and this is exhibited through the feature set that caters to users including ratings and reviews, instant messaging, bookmarking items, marking items as sold, and in-app transactions.
+        This app is specifically built for buy and sell interactions, and this is exhibited through the feature set that caters to users including ratings and reviews, instant messaging, bookmarking items, marking items as sold, and in-app transactions.<br></br><br></br>
+
+        We developed UMart using SwiftUi, storing the data in a Firebase database.
         </p>
       </div>
       <br></br>
